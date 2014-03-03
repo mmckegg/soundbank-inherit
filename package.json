@@ -1,0 +1,31 @@
+{
+  "name": "soundbank-inherit",
+  "version": "0.0.0",
+  "description": "Inherit descriptor from target audio slot and override specified attributes.",
+  "main": "index.js",
+  "dependencies": {
+    "json-query": "~0.3.3"
+  },
+  "devDependencies": {
+    "tape": "~2.5.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/soundbank-inherit.git"
+  },
+  "keywords": [
+    "waapi",
+    "soundbank",
+    "provider",
+    "audio"
+  ],
+  "author": "Matt McKegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmckegg/soundbank-inherit/issues"
+  },
+  "homepage": "https://github.com/mmckegg/soundbank-inherit"
+}
