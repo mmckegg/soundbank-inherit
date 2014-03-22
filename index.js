@@ -25,7 +25,7 @@ function inheritClone(){
     if (obj){
       for (var key in obj){
         if (key in obj){
-          if (i<1 || (key !== 'type' && key !== 'from')){
+          if (i<1 || (key !== 'node' && key !== 'from')){
             result[key] = JSON.parse(JSON.stringify(obj[key]))
           }
         }
