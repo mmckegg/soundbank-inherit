@@ -1,6 +1,6 @@
 {
   "name": "soundbank-inherit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Inherit descriptor from target audio slot and override specified attributes.",
   "main": "index.js",
   "dependencies": {
